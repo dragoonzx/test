@@ -24,6 +24,10 @@ h4 {
   font: 100% "ProximaNovaBold";
   font-weight: bold;
   color: #444444; }
+  @media only screen and (max-width: 767px) {
+    h2,
+    h4 {
+      font-size: 1.6rem !important; } }
 
 @media only screen and (max-width: 767px) {
   .button-adapt {
@@ -108,12 +112,20 @@ h4 {
   background-color: black;
   position: relative;
   top: -317.5px; }
+  @media only screen and (max-width: 767px) {
+    .pic-darken2 {
+      opacity: 0; } }
+
+@media only screen and (max-width: 767px) {
+  .cool {
+    padding-right: 15px !important; } }
 
 .news-pics {
   padding-top: 60px; }
   @media only screen and (max-width: 767px) {
     .news-pics {
-      padding-top: 30px; } }
+      padding-top: 30px;
+      height: auto !important; } }
 
 .news-text {
   position: absolute;
@@ -193,6 +205,9 @@ h4 {
 
 .news {
   height: 675px; }
+  @media only screen and (max-width: 767px) {
+    .news {
+      height: auto; } }
 
 @media only screen and (max-width: 767px) {
   .foot-img-adapt {

@@ -25,6 +25,8 @@ h4
   font: 100% $font-stack-bold
   font-weight: bold
   color: #444444
+  @include screen('mobile')
+    font-size: 1.6rem !important
 .button-adapt
   @include screen('mobile')
     padding-top: 50px
@@ -100,10 +102,16 @@ h4
   background-color: black
   position: relative
   top: -317.5px
+  @include screen('mobile')
+    opacity: 0
+.cool
+  @include screen('mobile')
+    padding-right: 15px !important
 .news-pics
   padding-top: 60px
   @include screen('mobile')
     padding-top: 30px
+    height: auto !important
 .news-text
   position: absolute
   display: block
@@ -170,6 +178,8 @@ h4
 
 .news
   height: 675px
+  @include screen('mobile')
+    height: auto
 .foot-img-adapt
   @include screen('mobile')
     padding-left: 15px !important
