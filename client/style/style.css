@@ -25,6 +25,25 @@ h4 {
   font-weight: bold;
   color: #444444; }
 
+@media only screen and (max-width: 767px) {
+  .button-adapt {
+    padding-top: 50px;
+    margin-right: 13px; } }
+
+@media only screen and (max-width: 767px) {
+  .button-adapt2 {
+    padding-top: 50px;
+    margin-right: 13px; } }
+
+@media only screen and (max-width: 767px) {
+  .button-adapt3 {
+    padding-top: 50px;
+    margin-right: 13px; } }
+
+@media only screen and (max-width: 767px) {
+  .slider-adapt {
+    padding-top: 40px !important; } }
+
 .add-email {
   font: 100% "ProximaNova";
   font-weight: bold;
@@ -92,6 +111,9 @@ h4 {
 
 .news-pics {
   padding-top: 60px; }
+  @media only screen and (max-width: 767px) {
+    .news-pics {
+      padding-top: 30px; } }
 
 .news-text {
   position: absolute;
@@ -103,12 +125,37 @@ h4 {
 
 .footer-text {
   padding-left: 20px; }
+  @media only screen and (max-width: 767px) {
+    .footer-text {
+      padding-left: 0px; } }
+
+@media only screen and (max-width: 767px) {
+  .footer-list-adaptive {
+    display: grid !important;
+    padding-left: 15px !important; } }
+
+@media only screen and (max-width: 767px) {
+  .foot-num {
+    display: grid; } }
 
 .company-logo {
-  margin-left: 80px; }
+  margin-left: 87px; }
+  @media only screen and (max-width: 767px) {
+    .company-logo {
+      margin-left: 46px; } }
+
+.company-logo:hover {
+  opacity: 0.8; }
+
+@media only screen and (max-width: 767px) {
+  .list-adapt {
+    display: none; } }
 
 .after-text {
   padding-top: 53px; }
+  @media only screen and (max-width: 767px) {
+    .after-text {
+      padding-top: 5px; } }
 
 .btn {
   border-radius: 0 !important;
@@ -133,6 +180,10 @@ h4 {
   bottom: 9px;
   right: 0px; }
 
+@media only screen and (max-width: 767px) {
+  .over {
+    overflow: hidden; } }
+
 #map {
   background-color: #F2F5FD; }
 
@@ -143,9 +194,18 @@ h4 {
 .news {
   height: 675px; }
 
+@media only screen and (max-width: 767px) {
+  .foot-img-adapt {
+    padding-left: 15px !important;
+    width: 250px !important; } }
+
+@media only screen and (max-width: 767px) {
+  .text-foot {
+    padding-left: 15px;
+    float: left !important; } }
+
 .footer {
-  background-color: #F2F5FD;
-  height: 360px; }
+  background-color: #F2F5FD; }
 
 #footer {
   background-color: #F2F5FD; }

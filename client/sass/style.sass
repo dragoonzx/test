@@ -1,9 +1,12 @@
 @import "../sass/fonts.sass"
+@import "adaptive"
 
 $myColor: red
 $font-stack: "ProximaNova" 
 $font-stack-bold: "ProximaNovaBold"
 $backColor: #F2F5FD
+
+
 
 
 h1
@@ -22,6 +25,21 @@ h4
   font: 100% $font-stack-bold
   font-weight: bold
   color: #444444
+.button-adapt
+  @include screen('mobile')
+    padding-top: 50px
+    margin-right: 13px
+.button-adapt2
+  @include screen('mobile')
+    padding-top: 50px
+    margin-right: 13px
+.button-adapt3
+  @include screen('mobile')
+    padding-top: 50px
+    margin-right: 13px
+.slider-adapt
+  @include screen('mobile')
+    padding-top: 40px !important
 .add-email
   font: 100% $font-stack
   font-weight: bold
@@ -84,6 +102,8 @@ h4
   top: -317.5px
 .news-pics
   padding-top: 60px
+  @include screen('mobile')
+    padding-top: 30px
 .news-text
   position: absolute
   display: block
@@ -93,12 +113,28 @@ h4
   font: 100% $font-stack
 .footer-text
   padding-left: 20px
+  @include screen('mobile')
+    padding-left: 0px
+.footer-list-adaptive
+  @include screen('mobile')
+    display: grid !important
+    padding-left: 15px !important
+.foot-num
+  @include screen('mobile')
+    display: grid 
 .company-logo
-  margin-left: 80px
-  
+  margin-left: 87px
+  @include screen('mobile')
+    margin-left: 46px
+.company-logo:hover
+  opacity: 0.8
+.list-adapt
+  @include screen('mobile')
+    display: none
 .after-text
   padding-top: 53px
-
+  @include screen('mobile')
+    padding-top: 5px
 .btn
   border-radius: 0 !important
   font: 100% $font-stack
@@ -122,7 +158,9 @@ h4
   position: absolute
   bottom: 9px
   right: 0px
-
+.over
+  @include screen('mobile')
+    overflow: hidden
 #map
   background-color: $backColor
 
@@ -132,10 +170,16 @@ h4
 
 .news
   height: 675px
-
+.foot-img-adapt
+  @include screen('mobile')
+    padding-left: 15px !important
+    width: 250px !important
+.text-foot
+  @include screen('mobile')
+    padding-left: 15px
+    float: left !important
 .footer
   background-color: $backColor
-  height: 360px
 
 #footer
   background-color: $backColor
