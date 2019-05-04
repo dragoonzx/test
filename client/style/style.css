@@ -52,6 +52,13 @@ h4 {
   font: 100% "ProximaNova";
   font-weight: bold;
   color: #808080; }
+  @media only screen and (min-width: 768px) and (max-width: 1203px) {
+    .add-email {
+      margin-bottom: 0px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1203px) {
+  .soc-table {
+    padding-left: 16px; } }
 
 .line {
   text-align: left;
@@ -63,6 +70,12 @@ h4 {
   border: none;
   height: 2px;
   vertical-align: middle; }
+
+@media only screen and (min-width: 768px) and (max-width: 1203px) {
+  .table-map {
+    -ms-flex: 0 0 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important; } }
 
 #line {
   padding-top: 70px; }
@@ -115,6 +128,15 @@ h4 {
   @media only screen and (max-width: 767px) {
     .pic-darken2 {
       opacity: 0; } }
+  @media only screen and (min-width: 768px) and (max-width: 1203px) {
+    .pic-darken2 {
+      top: -271.5px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1203px) {
+  .table-list {
+    -ms-flex: 0 0 83.333333% !important;
+    flex: 0 0 83.333333% !important;
+    max-width: 83.333333% !important; } }
 
 @media only screen and (max-width: 767px) {
   .cool {
@@ -140,6 +162,9 @@ h4 {
   @media only screen and (max-width: 767px) {
     .footer-text {
       padding-left: 0px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1203px) {
+    .footer-text {
+      padding-left: 28px; } }
 
 @media only screen and (max-width: 767px) {
   .footer-list-adaptive {
@@ -186,6 +211,13 @@ h4 {
 .btn-outline-primary {
   color: #0189BF !important;
   border-color: #E4E9FF !important; }
+
+@media only screen and (min-width: 768px) and (max-width: 1203px) {
+  .tablet-num {
+    -ms-flex: 0 0 33.333333% !important;
+    flex: 0 0 33.333333% !important;
+    max-width: 33.333333% !important;
+    margin-left: 18px; } }
 
 .add-button {
   position: absolute;
