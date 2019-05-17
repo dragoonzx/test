@@ -11,7 +11,7 @@ var httpServer = http.createServer(app)
 app.use(express.static(__dirname + '/client'))
 
 app.get('/', function(req, res) {
-  res.sendFile(__dirname + '/client/index.html')
+  res.sendFile(__dirname + '/client/themes/Profchistka/index.html')
 })
 
 httpServer.listen(port, () => console.log('server is listening'))
