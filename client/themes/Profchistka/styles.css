@@ -1,12 +1,12 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'Proxima Nova';
-  src: url("../../includes/fonts/ProximaNovaCond-Regular.eot?#iefix") format("embedded-opentype"), url("../../includes/fonts/ProximaNovaCond-Regular.ttf") format("woff"), url("../../includes/fonts/ProximaNovaCond-Regular.woff") format("truetype");
+  src: url("/includes/fonts/ProximaNovaCond-Regular.eot?#iefix") format("embedded-opentype"), url("/includes/fonts/ProximaNovaCond-Regular.ttf") format("woff"), url("/includes/fonts/ProximaNovaCond-Regular.woff") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'Proxima Nova';
-  src: url("../../includes/fonts/ProximaNovaCond-Bold.eot?#iefix") format("embedded-opentype"), url("../../includes/fonts/ProximaNovaCond-Bold.woff") format("woff"), url("../../includes/fonts/ProximaNovaCond-Bold.ttf") format("truetype");
+  src: url("/includes/fonts/ProximaNovaCond-Bold.eot?#iefix") format("embedded-opentype"), url("/includes/fonts/ProximaNovaCond-Bold.woff") format("woff"), url("/includes/fonts/ProximaNovaCond-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
 html {

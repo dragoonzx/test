@@ -12,20 +12,20 @@ $actionColorBright: #f5353efc;
 $specialColor: #fc5757;
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('../../includes/fonts/ProximaNovaCond-Regular.eot?#iefix')
+  src: url('/includes/fonts/ProximaNovaCond-Regular.eot?#iefix')
       format('embedded-opentype'),
-    url('../../includes/fonts/ProximaNovaCond-Regular.ttf') format('woff'),
-    url('../../includes/fonts/ProximaNovaCond-Regular.woff') format('truetype');
+    url('/includes/fonts/ProximaNovaCond-Regular.ttf') format('woff'),
+    url('/includes/fonts/ProximaNovaCond-Regular.woff') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('../../includes/fonts/ProximaNovaCond-Bold.eot?#iefix')
+  src: url('/includes/fonts/ProximaNovaCond-Bold.eot?#iefix')
       format('embedded-opentype'),
-    url('../../includes/fonts/ProximaNovaCond-Bold.woff') format('woff'),
-    url('../../includes/fonts/ProximaNovaCond-Bold.ttf') format('truetype');
+    url('/includes/fonts/ProximaNovaCond-Bold.woff') format('woff'),
+    url('/includes/fonts/ProximaNovaCond-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }

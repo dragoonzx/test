@@ -8,6 +8,7 @@ var port = 8000
 
 var httpServer = http.createServer(app)
 
+app.use(express.static(__dirname))
 app.use(express.static(__dirname + '/client'))
 
 app.get('/', function(req, res) {
